@@ -1,6 +1,6 @@
 # Utility Scripts
 
-This repository contains scripts that help automate tasks or simplify processes.
+This repository contains scripts or code that automate tasks or simplify processes.
 
 ## Contents
 - Small automation scripts
