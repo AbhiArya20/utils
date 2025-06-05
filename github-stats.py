@@ -81,8 +81,6 @@ class ProcessorGQL(object):
                 f.write("\n".join(repos)+"\n")
 
     def get_all_repos(self):
-        with open('repos.csv', 'a', encoding='utf-8') as f:
-            f.write(", ".join(['repo_name', 'stars', 'forks', 'language', 'repo_url', 'username', 'issues','last_commit', 'description'])+"\n")
         count = 1
         while(count <= 100):
             if(count % 10 == 0):
